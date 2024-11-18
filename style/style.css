@@ -124,35 +124,34 @@ section.possibilidades div img {
 }
 footer {
     background-color: #3B8686;
-}
-footer div nav ul {
     display: flex;
     color: white;
+    padding: 5vw 7vw 5vw 7vw;
+    justify-content: space-between;
 }
 
-footer div.redes nav ul li {
-    color: white;
+footer div.redes nav ul {
     text-align: left;
-    font-size: xx-large;
+    font-size: 2rem;
     padding: 8px 8px 8px 8px;
+    display: flex;
+}
+footer div.redes nav ul li {
+    margin: 0 0.5vw 2vw 0;
 }
 footer div nav p {
-    color: white;
     font-size: 30px;
 }
 footer div.contato ul li span {
-    color: white;
     text-align: center; 
-
-}
-footer div ul li span {
-    text-align: center;
-    display: flex;
+    line-height: 230%;
 }
 footer div.redes nav p {
-    color: white;
     font-size: 1rem;
 }
-footer div.contato p {
+footer div.home nav ul li a{
     color: white;
+    line-height: 220%;
+    text-align: end;
 }
+
