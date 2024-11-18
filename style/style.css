@@ -43,3 +43,116 @@ section.servicos {
     display: flex;
     padding: 7vw 7vw 7vw 7vw;
 }
+section.servicos ul {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+section.servicos ul li {
+    width: 25%;
+}
+section.servicos ul li span {
+    color: #3b8686;
+    font-size: 3rem;
+}
+section.servicos ul li h3 {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 20px 0 20px 0;
+}
+section.servicos ul li p {
+    color: rgb(121, 114, 114);
+}
+section.servicos ul li a {
+    background-color: #3b8686;
+    padding: 15px 30px 15px 30px;
+    display: inline-block;
+    margin: 20px 0 0 0;
+    color: white;
+}
+section.informacoes {
+    background: linear-gradient(#3b868660, #3b868660), url(..//scr/back-numeros.png) no-repeat center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section.informacoes ul li p {
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+}
+section.informacoes ul li span {
+    color: white;
+    font-size: 3.5rem;
+    text-align: center; 
+}
+section.informacoes ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 9vw 10vw 9vw 10vw;
+    height: 25%;
+}
+section.informacoes ul li {
+    text-align: center;
+}
+section.possibilidades h3 {
+    color: #0B486B;
+    padding: 35px 0 35px 0;
+    font-size: 2.5rem;
+}
+section.possibilidades {
+    display: flex;
+    margin:9vw 5vw 9vw 5vw;
+    text-align: left;
+}
+section.possibilidades p {
+    font-size: 1.2rem;
+    color: #747474;
+    padding: 0px 0px 30px 0px;
+    margin: 10px 0 10px 0;
+    text-align: left;
+}
+section.possibilidades a {
+    justify-content: space-between;
+    background-color: #0B486B;
+    color: white;
+    margin: 20px 15px 20px 0px;
+    padding: 17px 25px 17px 25px;
+    display: inline-block;
+}
+section.possibilidades div img {
+    margin: 1vw 5vw 1vw 5vw;    
+}
+footer {
+    background-color: #3B8686;
+}
+footer div nav ul {
+    display: flex;
+    color: white;
+}
+
+footer div.redes nav ul li {
+    color: white;
+    text-align: left;
+    font-size: xx-large;
+    padding: 8px 8px 8px 8px;
+}
+footer div nav p {
+    color: white;
+    font-size: 30px;
+}
+footer div.contato ul li span {
+    color: white;
+    text-align: center; 
+
+}
+footer div ul li span {
+    text-align: center;
+    display: flex;
+}
+footer div.redes nav p {
+    color: white;
+    font-size: 1rem;
+}
+footer div.contato p {
+    color: white;
+}
